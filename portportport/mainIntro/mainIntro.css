@@ -1,0 +1,35 @@
+.landing-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    width: auto;
+    height: 100vh;
+    background: linear-gradient(360deg,
+    #A4C3B2 50%,
+    #CCE3DE 25%,
+    #EAF4F4 100%,
+    #6B9080 0%);
+}
+
+.landing-page div{
+    letter-spacing: 1.2rem;
+}
+
+.main-intro-left, .main-intro-right {
+    width: auto;
+    height: 50%;
+}
+
+.main-intro-right,
+.main-intro-left {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.main-intro-left img {
+    width: 50%;
+    height: auto;
+}
